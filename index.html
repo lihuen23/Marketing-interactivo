@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<title>Malla Curricular Completa con Correlativas</title>
+<style>
+  body { font-family: Arial, sans-serif; background: #fdf6f0; margin: 30px; color: #333; }
+  h1 { color: #d88ca4; }
+  h2 { color: #b86b82; }
+  ul { list-style: none; padding: 0; }
+  li { margin-bottom: 8px; }
+  .completed { text-decoration: line-through; color: gray; }
+  input[type=checkbox]:disabled + label {
+    color: #aaa;
+  }
+</style>
+</head>
+<body>
+
+<h1>Malla Curricular - Licenciatura en Comercialización</h1>
+
+<!-- 1er Año -->
+<h2>1er Año - Primer Cuatrimestre</h2>
+<ul>
+  <li><input type="checkbox" id="mat01" data-code="01" data-correlativas="" /><label for="mat01">01 - Taller de Introducción a la Economía y los Negocios</label></li>
+  <li><input type="checkbox" id="mat02" data-code="02" data-correlativas="" /><label for="mat02">02 - Fundamentos de Marketing</label></li>
+  <li><input type="checkbox" id="mat03" data-code="03" data-correlativas="" /><label for="mat03">03 - Administración General</label></li>
+  <li><input type="checkbox" id="mat04" data-code="04" data-correlativas="" /><label for="mat04">04 - Introducción al Comercio Internacional</label></li>
+  <li><input type="checkbox" id="mat05" data-code="05" data-correlativas="" /><label for="mat05">05 - Contabilidad General</label></li>
+</ul>
+
+<h2>1er Año - Segundo Cuatrimestre</h2>
+<ul>
+  <li><input type="checkbox" id="mat06" data-code="06" data-correlativas="" /><label for="mat06">06 - Principios de Economía</label></li>
+  <li><input type="checkbox" id="mat07" data-code="07" data-correlativas="" /><label for="mat07">07 - Historia Económica y Social</label></li>
+  <li><input type="checkbox" id="mat08" data-code="08" data-correlativas="" /><label for="mat08">08 - Matemática I</label></li>
+  <li><input type="checkbox" id="mat09" data-code="09" data-correlativas="" /><label for="mat09">09 - Administración Estratégica</label></li>
+  <li><input type="checkbox" id="mat10" data-code="10" data-correlativas="" /><label for="mat10">10 - Informática Aplicada</label></li>
+</ul>
+
+<!-- 2do Año -->
+<h2>2do Año - Primer Cuatrimestre</h2>
+<ul>
+  <li><input type="checkbox" id="mat11" data-code="11" data-correlativas="" /><label for="mat11">11 - Problemática del Mundo Actual</label></li>
+  <li><input type="checkbox" id="mat12" data-code="12" data-correlativas="08" /><label for="mat12">12 - Matemática II</label></li>
+  <li><input type="checkbox" id="mat13" data-code="13" data-correlativas="" /><label for="mat13">13 - Inglés I</label></li>
+  <li><input type="checkbox" id="mat14" data-code="14" data-correlativas="" /><label for="mat14">14 - Marco Legal de la Empresa</label></li>
+  <li><input type="checkbox" id="mat15" data-code="15" data-correlativas="" /><label for="mat15">15 - Psicosociología de la Organización</label></li>
+</ul>
+
+<h2>2do Año - Segundo Cuatrimestre</h2>
+<ul>
+  <li><input type="checkbox" id="mat16" data-code="16" data-correlativas="09" /><label for="mat16">16 - Negocios Digitales</label></li>
+  <li><input type="checkbox" id="mat17" data-code="17" data-correlativas="" /><label for="mat17">17 - Estadística</label></li>
+  <li><input type="checkbox" id="mat18" data-code="18" data-correlativas="13" /><label for="mat18">18 - Inglés II</label></li>
+  <li><input type="checkbox" id="mat19" data-code="19" data-correlativas="" /><label for="mat19">19 - Metodología de la Investigación</label></li>
+  <li><input type="checkbox" id="mat20" data-code="20" data-correlativas="03 15" /><label for="mat20">20 - Competencias Gerenciales</label></li>
+  <li><input type="checkbox" id="mat21" data-code="21" data-correlativas="01 02 03 04 05 06 07 08 09 10 11 12 13 14 15" /><label for="mat21">21 - Taller de Integración</label></li>
+</ul>
+
+<!-- 3er Año -->
+<h2>3er Año - Primer Cuatrimestre</h2>
+<ul>
+  <li><input type="checkbox" id="mat22" data-code="22" data-correlativas="02" /><label for="mat22">22 - Comunicación Comercial</label></li>
+  <li><input type="checkbox" id="mat23" data-code="23" data-correlativas="02" /><label for="mat23">23 - Política de Producto</label></li>
+  <li><input type="checkbox" id="mat24" data-code="24" data-correlativas="02" /><label for="mat24">24 - Canales de Distribución</label></li>
+  <li><input type="checkbox" id="mat25" data-code="25" data-correlativas="15" /><label for="mat25">25 - Comportamiento del Consumidor</label></li>
+  <li><input type="checkbox" id="mat26" data-code="26" data-correlativas="02" /><label for="mat26">26 - Dirección de Ventas</label></li>
+</ul>
+
+<h2>3er Año - Segundo Cuatrimestre</h2>
+<ul>
+  <li><input type="checkbox" id="mat27" data-code="27" data-correlativas="02" /><label for="mat27">27 - Política de Precios</label></li>
+  <li><input type="checkbox" id="mat28" data-code="28" data-correlativas="15" /><label for="mat28">28 - Investigación de Mercado</label></li>
+  <li><input type="checkbox" id="mat29" data-code="29" data-correlativas="05" /><label for="mat29">29 - Costos</label></li>
+  <li><input type="checkbox" id="mat30" data-code="30" data-correlativas="16" /><label for="mat30">30 - Marketing Digital</label></li>
+  <li><input type="checkbox" id="mat31" data-code="31" data-correlativas="21 22 23 24 25 26" /><label for="mat31">31 - Seminario de Integración</label></li>
+</ul>
+
+<!-- 4to Año -->
+<h2>4to Año - Primer Cuatrimestre</h2>
+<ul>
+  <li><input type="checkbox" id="mat32" data-code="32" data-correlativas="" /><label for="mat32">32 - Administración Financiera</label></li>
+  <li><input type="checkbox" id="mat33" data-code="33" data-correlativas="15" /><label for="mat33">33 - Mercados Especiales I</label></li>
+  <li><input type="checkbox" id="mat34" data-code="34" data-correlativas="09" /><label for="mat34">34 - Política de Negocios</label></li>
+  <li><input type="checkbox" id="mat35" data-code="35" data-correlativas="17" /><label for="mat35">35 - Técnicas Cuantitativas</label></li>
+  <li><input type="checkbox" id="mat36" data-code="36" data-correlativas="19" /><label for="mat36">36 - Taller de Trabajo Final</label></li>
+</ul>
+
+<h2>4to Año - Segundo Cuatrimestre</h2>
+<ul>
+  <li><input type="checkbox" id="mat37" data-code="37" data-correlativas="15" /><label for="mat37">37 - Mercados Especiales II</label></li>
+  <li><input type="checkbox" id="mat38" data-code="38" data-correlativas="32 34" /><label for="mat38">38 - Planeamiento y Evaluación de Proyectos</label></li>
+  <li><input type="checkbox" id="mat39" data-code="39" data-correlativas="20 34" /><label for="mat39">39 - Dirección Estratégica de Marketing</label></li>
+  <li><input type="checkbox" id="mat40" data-code="40" data-correlativas="31" /><label for="mat40">40 - Seminario de Práctica Profesional</label></li>
+  <li><input type="checkbox" id="mat41" data-code="41" data-correlativas="36" /><label for="mat41">41 - Trabajo Final</label></li>
+  <li><input type="checkbox" id="mat42" data-code="42" data-correlativas="" /><label for="mat42">42 - Experiencias Formativas Obligatorias de Carácter Electivo</label></li>
+</ul>
+
+<script>
+// Crear mapa de materias con sus correlativas y dependientes
+const materias = {
+  "01": { dependientes: ["21"] },
+  "02": { dependientes: ["21", "22", "23", "24"] },
+  "03": { dependientes: ["20", "21"] },
+  "04": { dependientes: ["21"] },
+  "05": { dependientes: ["21", "29"] },
+  "06": { dependientes: ["21"] },
+  "07": { dependientes: ["21"] },
+  "08": { dependientes: ["12", "21"] },
+  "09": { dependientes: ["16", "21", "34"] },
+  "10": { dependientes: ["21"] },
+  "11": { dependientes: ["21"] },
+  "12": { dependientes: ["21"] },
+  "13": { dependientes: ["18"] },
+  "14": { dependientes: ["21"] },
+  "15": { dependientes: ["20", "21", "25", "33"] },
+  "16": { dependientes: ["30"] },
+  "17": { dependientes: ["35"] },
+  "18": { dependientes: ["21"] },
+  "19": { dependientes: ["36"] },
+  "20": { dependientes: ["39"] },
+  "21": { dependientes: ["31"] },
+  "22": { dependientes: ["31"] },
+  "23": { dependientes: ["31"] },
+  "24": { dependientes: ["31"] },
+  "25": { dependientes: ["31"] },
+  "26": { dependientes: ["31"] },
+  "27": { dependientes: [] },
+  "28": { dependientes: [] },
+  "29": { dependientes: [] },
+  "30": { dependientes: [] },
+  "31": { dependientes: ["40"] },
+  "32": { dependientes: ["38"] },
+  "33": { dependientes: ["37"] },
+  "34": { dependientes: ["38", "39"] },
+  "35": { dependientes: [] },
+  "36": { dependientes: ["41"] },
+  "37": { dependientes: [] },
+  "38": { dependientes: [] },
+  "39": { dependientes: [] },
+  "40": { dependientes: [] },
+  "41": { dependientes: [] },
+  "42": { dependientes: [] }
+};
+
+// Conjunto para materias aprobadas
+let aprobadas = new Set();
+
+// Función para actualizar el estado de los checkboxes de materias dependientes
+function actualizarDependientes(codigo) {
+  const dependientes = materias[codigo]?.dependientes || [];
+
+  dependientes.forEach(dep => {
+    const checkbox = document.querySelector(`input[data-code="${dep}"]`);
+    if (!checkbox) return;
+
+    // Verificar si todas las correlativas de la materia dependiente están aprobadas
+    const correlativas = checkbox.dataset.correlativas.split(' ').filter(c => c !== '');
+
+    const todasAprobadas = correlativas.every(correl => aprobadas.has(correl));
+
+    checkbox.disabled = !todasAprobadas;
+
+    if (!todasAprobadas) {
+      checkbox.checked = false;
+      checkbox.parentElement.classList.remove('completed');
+      aprobadas.delete(dep);
+      actualizarDependientes(dep);
+    }
+  });
+}
+
+// Inicializar: deshabilitar materias con correlativas no cumplidas
+document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+  const correlativas = cb.dataset.correlativas.split(' ').filter(c => c !== '');
+  if (correlativas.length > 0) {
+    cb.disabled = true;
+  }
+});
+
+// Agregar evento a cada checkbox para controlar estado y dependientes
+document.querySelectorAll('input[type="checkbox"]').forEach(cb => {
+  cb.addEventListener('change', e => {
+    const codigo = cb.dataset.code;
+    if (cb.checked) {
+      aprobadas.add(codigo);
+      cb.parentElement.classList.add('completed');
+    } else {
+      aprobadas.delete(codigo);
+      cb.parentElement.classList.remove('completed');
+    }
+    actualizarDependientes(codigo);
+  });
+});
+</script>
+
+</body>
+</html>
